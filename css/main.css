@@ -46,10 +46,12 @@ header .logo {
 }
 .signup h1 {
   color: #696c6d;
+  font-family: "Merriweather Sans", sans-serif;
 }
 .signup label {
   display: block;
   margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
 }
 .signup input {
   display: block;
@@ -65,7 +67,9 @@ header .logo {
 }
 .about h1 {
   color: #e64448;
+  font-family: "Merriweather Sans", sans-serif;
 }
 .about p {
   color: #e1e2df;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=main.css.map */

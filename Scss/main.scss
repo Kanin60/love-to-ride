@@ -2,8 +2,15 @@
 
 $header: 'Merriweather Sans', sans-serif;
 $paragraf: 'Poppins', sans-serif;
-$hvid: #fff;
+$white: #fff;
+$lightGray: #e1e2df;
+$gray: #696c6d;
 $red: #e64448;
+$yellow: #eab244;
+$lightBlue: #89c5c7;
+$blue: #0b354b;
+$darkblue: #1f022e;
+
 
 body {
     width: 400px;
@@ -11,7 +18,7 @@ body {
     background-color: $red;
 }
     header {
-        background-color: $hvid;
+        background-color: $white;
         padding-left: 5px;
         .logo {
             width: 80%;
@@ -26,31 +33,33 @@ body {
         padding-bottom: 20px;
         padding-left: 5px;
         h1 {
-            color: #1f022e;
+            color: $darkblue;
             font-family: $header;
         }
         p {
-            color: #eab244;
+            color: $yellow;
             font-family: $paragraf;
         }
     }
     .bikes {
-        background-color: #e1e2df;
+        background-color: $lightGray;
         text-align: center;
     }
     .signup {
         display: block;
-        background-color: #89c5c7;
-        color: #0b354b;
+        background-color: $lightBlue;
+        color: $blue;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 5px;
         h1 {
-            color: #696c6d;
+            color: $gray;
+            font-family: $header;
         }
         label {
             display: block;
             margin-bottom: 5px;
+            font-family: $paragraf;
         }
         input {
             display: block;
@@ -59,14 +68,16 @@ body {
     }
     .about {
         display: block;
-        background-color: #eab244;
+        background-color: $yellow;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 5px;
         h1 {
-            color: #e64448;
+            color: $red;
+            font-family: $header;
         }
         p {
-            color: #e1e2df;
+            color: $lightGray;
+            font-family: $paragraf;
         }
     }
